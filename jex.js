@@ -10,13 +10,3 @@ btn.addEventListener("click",myFunction => {
     hexCode.textContent = result;
     document.body.style.backgroundColor = result;
 });
-function getRandom() {
-    return Math.floor( Math.random() * hexCharacters.length)
-};
-//try for change color of nav items when their select
-const navItem = document.getElementsByClassName("navItem");
-console.log(navItem)
-// navItem.addEventListener("click", function ayeen(){
-    
-//     document.navItem.style.color = "red";
-// });
